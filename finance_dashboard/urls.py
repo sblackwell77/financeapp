@@ -19,7 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('transactions.urls')),  # Include your transactions app's URLs
+    path('', include('transactions.urls')),  
 ]
 
 
